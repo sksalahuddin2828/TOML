@@ -5,7 +5,8 @@ def load_toml() -> dict:
     """Load TOML data from file"""
 
     # rb = read bytes mode
-    # Must change your path or use this --> with open("config.toml", "rb") as f:
+    # Must change your computer path or use this below inactive line --> 
+    # with open("config.toml", "rb") as f:
     with open("C:/Users/CBZ/Desktop/TOML/config.toml", "rb") as f:
         toml_data: dict = tomllib.load(f)
         return toml_data
