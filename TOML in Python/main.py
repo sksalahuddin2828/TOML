@@ -20,16 +20,16 @@ if __name__ == '__main__':
 
 
 # Answer: {'name': 'My Project',
- 'version': '1.0.1',
- 'website': 'https://www.2nonenone2.com/',
- 'items': {'numbers': [1, 2, 3],
-           'letters': ['a', 'b', 'c'],
-           'details': {'updated': True,
-                       'author': 'Test Name',
-                       'timestamp': datetime.datetime(2023, 6, 6, 0, 0, tzinfo=datetime.timezone.utc)}},
- 'database': {'file': {'type': 'sqlite', 'path': 'data.db'}},
- 'inline_table': {'inline': {'name': 'Test Name', 'age': 30}},
- 'table_group': [{'fruit': 'apple'}, {'fruit': 'orange'}, {'fruit': 'banana'}]}
+# 'version': '1.0.1',
+# 'website': 'https://www.2nonenone2.com/',
+# 'items': {'numbers': [1, 2, 3],
+#           'letters': ['a', 'b', 'c'],
+#           'details': {'updated': True,
+#                       'author': 'Test Name',
+#                       'timestamp': datetime.datetime(2023, 6, 6, 0, 0, tzinfo=datetime.timezone.utc)}},
+# 'database': {'file': {'type': 'sqlite', 'path': 'data.db'}},
+# 'inline_table': {'inline': {'name': 'Test Name', 'age': 30}},
+# 'table_group': [{'fruit': 'apple'}, {'fruit': 'orange'}, {'fruit': 'banana'}]}
 
 
 #-----------------------------------------------------------------------------------------------------------
