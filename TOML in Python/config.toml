@@ -1,0 +1,45 @@
+# Config file
+
+name = "My Project"
+version = "1.0.1"
+website = "https://www.2nonenone2.com/"
+
+[items]
+numbers = [1, 2, 3]
+letters = ["a", "b", "c"]
+
+[items.details]
+updated = true
+author = "Test Name"
+timestamp = 2023-06-06T00:00:00Z
+
+# [database]
+# type = "sqlite"
+# 10 = "data.db"
+
+# "Ø" = it's a Danish Symbol o
+# when you must using " " double quortation marks
+
+# [database]
+# type = "sqlite"
+# "Ø" = "data.db"
+
+# [database]
+# type = "sqlite"
+# file = "data.db"
+
+[database]
+file.type = "sqlite"
+file.path = "data.db"
+
+[inline_table]
+inline = { name = "Test Name", age = 30 }
+
+[[table_group]]
+fruit = "apple"
+
+[[table_group]]
+fruit = "orange"
+
+[[table_group]]
+fruit = "banana"
